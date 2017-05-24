@@ -1,0 +1,97 @@
+body{
+    background-color: #252f3f;
+    color: white;
+}
+.text-box-style1{
+    font-family: Monospaced;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    border: 1px solid deepskyblue;
+    background-color: aliceblue;
+    color: black;
+
+}
+.text-box-style1:focus{
+    border-color: black;
+    background-color: azure;
+    font-size: 18px;
+}
+.text-box-center{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.div-style1{
+
+    width: 500px;
+    margin-right:auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 2px white, -2px -2px 2px white ;
+    padding: 50px;
+    background-color: deepskyblue;
+    opacity: 0.50;
+}
+.div-style2{
+    width: 600px;
+}
+.div-style3{
+    width:700px;
+}
+.btn-center{
+    width: 100px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: inline;
+}
+.input-block{
+    display: block;
+}
+.menu-item{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    border: 2px solid aliceblue;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.menu-item:focus{
+    font-size: 25px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    color: darkblue;
+}
+.fixed-menu{
+    width: 100px;
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    border: 2px solid red;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
+    color:white;
+}
+table{
+    margin-right: auto;
+    margin-left: auto;
+}
+table, th, td {
+    font-size: large;
+    border: 1px solid black;
+    text-align: center;
+}
+th{
+    font-weight: bold;
+}
